@@ -1,5 +1,5 @@
 export const clsx = (...args) => {
-  const cls = "";
+  let cls = "";
   args.map((item) => {
     cls && (cls += " ");
     cls += mapClass(item);
