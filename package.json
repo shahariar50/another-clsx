@@ -1,6 +1,6 @@
 {
   "name": "another-clsx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Experimenting on npm package",
   "main": "src/index.js",
   "scripts": {
