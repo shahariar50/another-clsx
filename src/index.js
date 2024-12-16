@@ -1,4 +1,4 @@
-export default clsx = (...args) => {
+export const clsx = (...args) => {
   const cls = "";
   args.map((item) => {
     cls && (cls += " ");
@@ -23,3 +23,5 @@ const mapClass = (value) => {
   }
   return cls;
 };
+
+export default clsx;
